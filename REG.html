@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>REGISTRATION FORM</title>
+</head>
+<body>
+  <div class="container">  
+    <h1>STUDENT REGISTRATION FORM</h1>
+    <p>Please fill out this form</p>
+    <form action="https://formspree.io/f/myezplqg" method="POST">
+       <label for="name">Name:</label>
+       <input type="text" id="name" name="name" required><br><br>
+    
+       <label for="email">Email:</label>
+       <input type="email" id="email" name="email" required><br><br>
+
+       <fieldset>
+            <legend>What is your gender?</legend>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+        </fieldset><br><br>
+
+        <fieldset>
+            <legend>How would you rate your high school experience?</legend>
+            <select name="rating" id="dropdown">
+               <option value="the-best">the best</option>
+               <option value="good">Good</option>
+               <option value="average">Average</option>
+               <option value="the-worst">The worst</option>
+            </select>
+        </fieldset><br><br>
+
+        <fieldset>
+            <legend>What are your hobbies?</legend>
+            <input type="checkbox" id="sports" name="hobbies[]" value="sports">
+            <label for="sports">Sports</label>
+            <input type="checkbox" id="music" name="hobbies[]" value="music">
+            <label for="music">Music</label>
+            <input type="checkbox" id="reading" name="hobbies[]" value="reading">
+            <label for="reading">Reading</label>
+            <input type="checkbox" id="sunset-viewing" name="hobbies[]" value="sunset-viewing">
+            <label for="sunset-viewing">Sunset Viewing</label>
+            <input type="checkbox" id="cooking" name="hobbies[]" value="cooking">
+            <label for="cooking">Cooking</label>
+        </fieldset><br><br>
+
+        <fieldset>
+            <legend>How is your mental health state?</legend>
+            <select name="mental-health" id="dropdown">
+               <option value="good">Good</option>
+               <option value="average">Average</option>
+               <option value="just-bad">Just bad</option>
+               <option value="drained">Drained</option>
+            </select>
+        </fieldset><br><br>
+
+        <fieldset>
+            <legend>How would you rate your 2026 experience?</legend>
+            <select name="rating-2026" id="dropdown">
+                <option value="fantabulous">Fantabulous</option>
+                <option value="the-best">the best</option>
+                <option value="good">Good</option>
+                <option value="average">Average</option>
+                <option value="the-worst">The worst</option>
+                <option value="suffering">Suffering</option>
+            </select>
+        </fieldset><br><br>
+
+        <fieldset>
+            <legend>What courses are you interested in?</legend>
+            <input type="checkbox" id="engineering" name="courses[]" value="engineering">
+            <label for="engineering">Engineering</label>
+            <input type="checkbox" id="law" name="courses[]" value="law">
+            <label for="law">Law</label>
+            <input type="checkbox" id="medicine" name="courses[]" value="medicine">
+            <label for="medicine">Medicine</label>
+            <input type="checkbox" id="tech" name="courses[]" value="tech">
+            <label for="tech">Technology</label>
+            <input type="checkbox" id="none" name="courses[]" value="none">
+            <label for="none">None of the above</label>
+        </fieldset><br><br>
+        <p>What advice would you give to your younger self?</p>
+        <textarea name="additional-comments" id="additional-comments" rows="4" cols="50" placeholder="Additional comments..."></textarea><br><br>
+
+        <button type="submit">Submit</button>
+  </div>
+ </form>
+    
+</body>
+</html>

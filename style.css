@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image:url("https://mdreducation.com/wp-content/uploads/2024/03/Number-of-Schools-in-US.jpg");
+    margin: 0;
+    padding: 20px;
+}
+
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.container {
+    max-width: 800px;
+    width: 60%;
+    margin: 20px auto;
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"] {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: red;
+}
+
+button:visited {
+    background-color: purple;
+}
+
+textarea {
+    width: 80%;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

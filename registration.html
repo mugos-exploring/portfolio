@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="styles(1).css"> 
+ </head>
+ <body>
+    <header>
+        <h1>STUDENT REGISTRATION FORM</h1> 
+    </header>
+
+    <main>
+       <div class="reg"> 
+        <p>Please fill out this form to access full features:</p>
+        <form action="" method="POST">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required placeholder="e.g. example8@gmail.com"><br><br> 
+            
+            <label for="adm-no">Admission Number:</label><br>
+            <input type="text" id="adm-no" name="adm-no" required placeholder="e.g 108991"><br><br>
+
+            <fieldset>
+                <legend>GENDER</legend>
+                <input type="radio" id="male" name="gender" value="male" required>
+                <label for="male">MALE</label>
+                
+                <input type="radio" id="female" name="gender" value="female" required>
+                <label for="female">FEMALE</label>
+            </fieldset><br>
+            <p>Do you have any questions for us?</p>
+            <textarea name="questions" id="questions" cols="20" rows="5"></textarea><br><br>
+
+            <button type="submit">SUBMIT</button>
+            <button type="reset">RESET</button> 
+            <button type="button" onclick="window.history.back();" class="btn">BACK</button>
+        </form>
+       </div> 
+    </main>
+ </body>
+</html>
