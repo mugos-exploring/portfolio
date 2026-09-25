@@ -1,5 +1,8 @@
 # portfolio
-https://mugos-exploring.github.io/portfolio/
+
+My work on github -https://mugos-exploring.github.io/portfolio/
+My work on vercel -portfolio-gdiatqz5q-mugo-exploring.vercel.app
+
 ##About
 I'm Fidel Mugo a student from KCA University currently learning Information Security.
 I'm still learning HTML/CSS.
