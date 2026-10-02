@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background: burlywood;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #000;
+    color: #fff;
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+img {
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-decoration: underline;
+}
+
+#about, #projects, #contact {
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color: #166534;
+}
+
+.nav-link:link {
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 18px;
+    width: 80%;
+}
+
+#about:hover, #projects:hover, #contact:hover {
+    background-color: #12355b;
+    color: #fff;
+    transform: scale(1.02);
+}
+
+.link:link {
+    text-decoration: underline;
+    color: #38BDF8;
+}
+
+.link:visited {
+    text-decoration: underline;
+    color: purple;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: #78350f;
+}

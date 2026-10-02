@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Projects</title>
+        <link rel="stylesheet" href="styles(2).css">
+    </head>
+    <body>
+      <div class="container">  
+        <div class="skills">
+            <h1>MY SKILLS</h1>
+            <h2>HTML</h2>
+            <div class="progress-bar">
+                <div class="html"><span>93%</span></div>
+            </div>
+            <h2>CSS</h2>
+            <div class="progress-bar">
+                <div class="css"><span>71%</span></div> 
+            </div>
+            <h2>JavaScript</h2>
+            <div class="progress-bar">
+                <div class="javascript"><span>56%</span></div> 
+            </div>
+            <h2>Python</h2>
+            <div class="progress-bar">
+                <div class="python"><span>49%</span></div>
+            </div>
+            <h2>Java</h2>
+            <div class="progress-bar">
+                <div class="java"><span>62%</span></div>
+            </div>
+            <h2>PHP</h2>
+            <div class="progress-bar">
+                <div class="php"><span>27%</span></div>
+            </div>                        
+        </div>
+        <div class="projects">
+            <h2>My projects</h2>
+                <p>Here are some of the projects I have worked on</p>
+            <div class="project-list">    
+                <p>Project 1: login page - <a href="REG.html" class="link">LOGIN-PAGE</a></p>
+                <p>A simple login page used for enterinng your data.</p>
+            </div>
+            <div class="project-list">    
+                <p>Project 2: Restaurant menu - <a href="restaurant-menu.html" class="link">RESTAURANT-MENU</a></p>
+                <p>A simple restaurant menu page.</p>
+            </div>
+            <div class="project-list">    
+                <p>Project 3: School Website - <a href="index(1).html" class="link">SCHOOL-WEBSITE</a></p>
+                <p>A simple school website for HUNTER school.</p>
+            </div>
+        </div>
+        <div class="services">
+            <h2>My Services</h2>
+            <p>Here are some of the services I offer</p>
+            <p>Service 1: Web Design - I can design and develop responsive websites using HTML, CSS, and JavaScript.</p>
+            <p>Service 2: Web Development - I can develop web applications using Python, Java, and PHP.</p>
+            <p>Service 3: UI/UX Design - I can design user interfaces and user experiences for web and mobile applications.</p>
+        </div>
+
+        <div class="contact-form">
+            <h2>CONTACT FORM</h2>
+            <form action="https://formspree.io/f/myezplqg" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <span class="error-text" id="emailErrorMsg">Please enter a valid email address.</span>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" required placeholder="Type your message here..." cols="10" rows="5"></textarea><br><br>
+                </div>
+                <button type="submit" class="btn">SUBMIT</button>
+                <div class="submissionAlert" class="status-alert"></div>
+            </form>
+            <a href="index.html">Back to HomePage</a>
+        </div>
+      </div>
+    <script src="script.js"></script>   
+    
+    </body>    
+</html>

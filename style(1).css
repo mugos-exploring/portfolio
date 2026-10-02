@@ -1,0 +1,92 @@
+body{
+    background-image: url("https://media.istockphoto.com/id/839988946/photo/whats-on-your-pizza.webp?a=1&b=1&s=612x612&w=0&k=20&c=pI_sBq3mlzlSwYUuH0z7LVA9SI-AzrITyngKS0fy23s=");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2{
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+h1, h2, p{
+    text-align: center;
+}
+
+.menu{
+    width: 80%;
+    background-color: mediumslateblue;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 550px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 100px;
+}
+
+hr{
+    height: 2px;
+    background-color: black;
+    border-color: black;
+}
+
+.bottom-line{
+    margin-top: 20px;  
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.drinks, .main, .dessert{
+    text-align: left;
+    width: 70%;
+}
+
+.price{
+    text-align: right;
+    width: 30%;
+}
+
+/* FOOTER */
+
+footer{
+    font-size: 20px;
+    text-align: center;
+}
+
+.RSVP{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: blue;
+}
