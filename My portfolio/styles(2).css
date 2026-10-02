@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 20px auto;
+  padding: 20px auto;
+  background-color: brown;
+}
+
+.skills h2 {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  color: #333;
+  font-size: 18px;
+}
+
+.progress-bar {
+  background: #36454f;
+  width: 300px;
+  height: 10px;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+.progress-bar div {
+  width: 0;
+  height: 10px;
+  border-radius: 5px;
+}
+
+.progress-bar div span {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #808080;
+  float: right;
+  margin-top: -10px;
+  margin-right: -20px;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  display: flex;
+  font-size: 10px;
+}
+
+.html {
+  background-color: #e34c26;
+  animation: html 1s linear forwards;
+}
+
+.css {
+  background-color: #8b5cf8;
+  animation: css 1s linear forwards;
+}
+
+.javascript {
+  background-color: #eab308;
+  animation: javascript 1s linear forwards;
+}
+
+.python {
+  background-color: #37a6e0;
+  animation: python 1s linear forwards;
+}
+
+.java {
+  background-color: #f89820;
+  animation: java 1s linear forwards;
+}
+
+.php {
+  background-color: #4f5b93;
+  animation: php 1s linear forwards;
+}
+
+@keyframes html {
+  100% {
+    width: 93%;
+  }
+}
+
+@keyframes css {
+  100% {
+    width: 71%;
+  }
+}
+
+@keyframes javascript {
+  100% {
+    width: 56%;
+  }
+}
+
+@keyframes python {
+  100% {
+    width: 49%;
+  }
+}
+
+@keyframes java {
+  100% {
+    width: 62%;
+  }
+}
+
+@keyframes php {
+  100% {
+    width: 27%;
+  }
+}
+
+.contact-form {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px auto;
+  background-color: #06b6d4;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  width: 40%;
+  text-align: center;
+}
+
+input[type="text"], input[type="email"] {
+  width: 40%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.error-text {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+  display: none;
+}
+
+.btn {
+  background-color: #696969;
+  color: #000;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #1f2937;
+  color: #fff;
+}
+
+.status-alert {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  display: none;
+}
+
+.status-alert.success {
+  background-color: #dcfce7;
+  color: #15803d;
+  display: block;
+  border: 1px solid #bbf7d0;
+}
+
+.skills, .projects, .services {
+  background-color: #06b6d4;
+  color: #000;
+  padding: 20px auto;
+  margin: 20px auto;
+  border-radius: 10px;
+  width: 80%;
+  text-align: center;
+  height: auto;
+}
+
+.skills h2, .projects h2, .services h2 {
+  margin: 20px auto;
+  padding: 10px auto;
+  font-size: 24px;
+  color: #000;
+  text-align: center;
+}
