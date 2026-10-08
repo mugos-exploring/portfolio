@@ -19,3 +19,6 @@ I can be contacted through the following:
 -Email: delfimug8@gmail.com
 -instagram: mvgo_.hz
 -linkedIn: Fidelmugo
+##LIGHTHOUSE PERFORMANCE SCORES
+Before compressing the images the performance score was 96
+After compressing the images the performance score was 100
