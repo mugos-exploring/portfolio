@@ -23,4 +23,4 @@ I can be contacted through the following:
 ##LIGHTHOUSE PERFORMANCE SCORES
 On an Incognito tab these were the observations in the performance scores:
 Before compressing the images the performance score was 96.
-After compressing the images the performance score was 100.
+After compressing the images the performance score was 99.
