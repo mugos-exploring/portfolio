@@ -21,5 +21,6 @@ I can be contacted through the following:
 -instagram: mvgo_.hz
 -linkedIn: Fidelmugo
 ##LIGHTHOUSE PERFORMANCE SCORES
-Before compressing the images the performance score was 96
-After compressing the images the performance score was 100
+On an Incognito tab these were the observations in the performance scores:
+Before compressing the images the performance score was 96.
+After compressing the images the performance score was 100.
